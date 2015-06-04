@@ -1,0 +1,50 @@
+[2015/05/28 15:41:55 CST] [INFO] (ngrok/log.Info:113) Reading configuration file debug.yml
+[2015/05/28 15:41:55 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:84) [client] Trusting root CAs: [assets/client/tls/ngrokroot.crt]
+[2015/05/28 15:41:55 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:84) [view] [web] Serving web interface on 127.0.0.1:4040
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [view] [term] Waiting for update
+[2015/05/28 15:41:55 CST] [INFO] (ngrok/log.Info:113) Checking for update
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] New connection to: 121.43.231.237:4443
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Writing message: {"Type":"Auth","Payload":{"Version":"2","MmVersion":"1.7","User":"","Password":"","OS":"linux","Arch":"amd64","ClientId":""}}
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 120
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"AuthResp","Payload":{"Version":"2","MmVersion":"1.7","ClientId":"1b1adbe4abb62cb658ccda7c28a5b4d2","Error":""}}
+[2015/05/28 15:41:55 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:84) [client] Authenticated with server, client id: 1b1adbe4abb62cb658ccda7c28a5b4d2
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Writing message: {"Type":"ReqTunnel","Payload":{"ReqId":"d268d8fc0cca4639","Protocol":"http+https","Hostname":"","Subdomain":"aa","HttpAuth":"","RemotePort":0}}
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 32
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"ReqProxy","Payload":{}}
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [view] [term] Waiting for update
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 123
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"NewTunnel","Payload":{"ReqId":"d268d8fc0cca4639","Url":"http://aa.lms1.autelan.com","Protocol":"http","Error":""}}
+[2015/05/28 15:41:55 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:84) [client] Tunnel established at http://aa.lms1.autelan.com
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 125
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"NewTunnel","Payload":{"ReqId":"d268d8fc0cca4639","Url":"https://aa.lms1.autelan.com","Protocol":"https","Error":""}}
+[2015/05/28 15:41:55 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:84) [client] Tunnel established at https://aa.lms1.autelan.com
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [view] [term] Waiting for update
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [view] [term] Waiting for update
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [pxy:7f3088f7] New connection to: 121.43.231.237:4443
+[2015/05/28 15:41:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [pxy:7f3088f7] Writing message: {"Type":"RegProxy","Payload":{"ClientId":"1b1adbe4abb62cb658ccda7c28a5b4d2"}}
+[2015/05/28 15:41:56 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [pxy:7f3088f7] Waiting to read message
+[2015/05/28 15:42:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Writing message: {"Type":"Ping","Payload":{}}
+[2015/05/28 15:42:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 28
+[2015/05/28 15:42:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"Pong","Payload":{}}
+[2015/05/28 15:42:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:42:21 CST] [EROR] (ngrok/log.Error:121) Error while updating ngrok: crypto/rsa: verification error
+[2015/05/28 15:42:21 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [view] [term] Waiting for update
+[2015/05/28 15:42:35 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Writing message: {"Type":"Ping","Payload":{}}
+[2015/05/28 15:42:35 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 28
+[2015/05/28 15:42:35 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"Pong","Payload":{}}
+[2015/05/28 15:42:35 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:42:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Writing message: {"Type":"Ping","Payload":{}}
+[2015/05/28 15:42:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 28
+[2015/05/28 15:42:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"Pong","Payload":{}}
+[2015/05/28 15:42:55 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:43:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Writing message: {"Type":"Ping","Payload":{}}
+[2015/05/28 15:43:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Reading message with length: 28
+[2015/05/28 15:43:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Read message {"Type":"Pong","Payload":{}}
+[2015/05/28 15:43:15 CST] [DEBG] (ngrok/log.(*PrefixLogger).Debug:80) [ctl:6b3cfcd1] Waiting to read message
+[2015/05/28 15:43:16 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:84) [view] [term] Got quit command
+[2015/05/28 15:43:16 CST] [INFO] (ngrok/log.(*PrefixLogger).Info:84) [controller] Shutting down
